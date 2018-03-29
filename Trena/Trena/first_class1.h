@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <ctime>
 using namespace std;
 class First {
 public: void first_class()
@@ -12,6 +12,8 @@ public: void first_class()
 		}
 		cout << endl;
 	}
+	cout << "Âנולÿ נאבמעû ןנמדנאללû: " << clock() / 1000.0 << endl;
+	system("pause");
 }
 };
 

@@ -21,6 +21,7 @@ void vibor_lesson() {
 		vibor_lesson();
 		break;
 	case 3:
+
 		vibor_lesson();
 		break;
 	default:

@@ -91,6 +91,7 @@ public:void massivis()
 	}
 	cout << endl;
 	delete []perem.odnomer_massiv;
+	cout << "Âנולÿ נאבמעû ןנמדנאללû:  " << clock() / 1000.0 << endl;
 	system("pause");
 }
 };
