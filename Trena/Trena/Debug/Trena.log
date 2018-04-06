@@ -1,3 +1,0 @@
-﻿  Main.cpp
-e:\с++\-\trena\trena\trena_massiv.h(26): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-  Trena.vcxproj -> E:\С++\-\Trena\Debug\Trena.exe

@@ -1,0 +1,16 @@
+﻿<Window x:Class="Тренировка_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Тренировка_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Margin="0,0,-5.862,0.231">
+        <Button Content="Заполнение прогрес бара" HorizontalAlignment="Left" Margin="186,206,0,0" VerticalAlignment="Top" Width="152" Height="67" Click="Button_Click"/>
+        <ProgressBar  Minimum="0" Maximum="100" Value="0" Height="25" Name="Progres"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="238,105,0,0" VerticalAlignment="Top" Name="Labe"/>
+
+
+    </Grid>
+</Window>
