@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Recipe</string>
+
+  <string-array name="recipes_array">
+    <item>Бульоны и супы</item>
+    <item>Горячие блюда</item>
+    <item>Салаты</item>
+    <item>Закуски</item>
+    <item>Напитки</item>
+    <item>Соусы</item>
+    <item>Выпечка</item>
+    <item>Десерты</item>
+    <item>Заготовки</item>
+    <item>Блюда из лаваша</item>
+    <item>Каши</item>
+    <item>Украшения для блюд</item>
+    <item>Готовим в пароварке</item>
+    <item>Приготовление молочных продуктов</item>
+    <item>Готовим в мультиварке</item>
+    <item>Маринад, панировка</item>
+  </string-array>
+</resources>

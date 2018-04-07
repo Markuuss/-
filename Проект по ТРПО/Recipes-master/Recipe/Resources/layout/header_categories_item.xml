@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card_view="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp">
+          <TextView
+            android:id="@+id/textView"
+            android:paddingTop="5dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="17dp"
+            android:text="Выберите категорию рецептов">
+          </TextView>
+          <Spinner
+            android:id="@+id/spinner"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="28dp">
+          </Spinner>
+          <TextView
+            android:id="@+id/textView2"
+            android:paddingTop="5dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:layout_marginTop="60dp"
+            android:text="Сортировать по: ">
+          </TextView>
+          <Spinner
+            android:id="@+id/spinner2"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="130dp">
+          </Spinner>
+        </FrameLayout>
+</LinearLayout>
